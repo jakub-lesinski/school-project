@@ -1,0 +1,154 @@
+
+
+.carousel {
+    height: 40vh;
+
+    .item-about,
+    .item-track,
+    .item-contact {
+        height: 40vh;
+    }
+
+    .item {
+        &-about {
+            background-image: url(./img/1.jpg);
+            background-position: bottom;
+            padding: 10px;
+        }
+
+        &-track {
+            background-image: url(./img/2.jpg);
+            background-position: 0 -220px;
+        }
+
+        &-contact {
+            background-image: url(./img/3.jpg);
+            background-position: 0 -420px;
+            background-size: 1550px 800px;
+        }
+    }
+}
+
+.reservation {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 30px;
+    background-image: url('./img/reservation.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 350px;
+    font-family: 'Courier New', Courier, monospace;
+
+    &-text {
+        margin-left: 10%;
+    }
+}
+
+.about {
+    color: #FFF;
+    background-color: #3f3f47;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    height: 500px;
+    
+
+    &-heading {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+
+    &-text {
+        margin: 40px ;
+        font-size: 18px;
+        text-align: justify;
+
+    }
+
+    .photo {
+        width: 40%;
+        margin: 2rem;
+
+        &:first-child {
+            margin-left: 8px;
+        }
+        
+    }
+
+    
+    .photo:hover {
+        transform: scale(1.2);
+        transition-duration: 2s;
+    }
+}
+
+.track {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+
+    &-heading {
+        margin: 50px;
+        font-size: 50px ;
+        
+    }
+}
+
+.contact {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 600px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &-heading {
+        text-transform: uppercase;
+        font-size: 50px;
+        margin: 50px;
+    }
+
+    .dupa {
+        justify-content: flex-start;
+        margin: 0 8rem;
+    }
+
+    &-content {
+        width: 100%;
+        display: flex;
+    }
+}
+
+.col {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+ 
+}
+
+.carousel-heading {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
