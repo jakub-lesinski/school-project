@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
+    color: $white;
     border: none;
-    background-color: #ff190c;
+    background-color: $red;
     width: 250px;
     height: 50px;
     border-radius: 3px;
@@ -13,7 +13,7 @@
     text-decoration: none;
 
     &:hover {
-        background-color: #a31008;
+        background-color: $red-hover;
     }
 
     @include media-breakpoint-up(tab) {
@@ -21,10 +21,10 @@
     }
 }
 
-.login-button {
+.black-button {
     border: none;
     width: 13rem;
     height: 3rem;
-    background-color: black;
-    color: white;
+    background-color: $black;
+    color: $white;
 }

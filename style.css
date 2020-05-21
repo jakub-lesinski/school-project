@@ -350,7 +350,7 @@ body {
 }
 
 a {
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -374,7 +374,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #ffffff;
   border: none;
   background-color: #ff190c;
   width: 250px;
@@ -393,12 +393,12 @@ a {
   }
 }
 
-.login-button {
+.black-button {
   border: none;
   width: 13rem;
   height: 3rem;
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .header {
@@ -502,7 +502,7 @@ a {
 }
 
 .reservation {
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   display: flex;
   justify-content: space-around;
@@ -528,7 +528,7 @@ a {
   }
 }
 .about {
-  color: #FFF;
+  color: #ffffff;
   background-color: #3f3f47;
   display: flex;
   flex-direction: column;
@@ -593,7 +593,7 @@ a {
 .contact {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 100%;
-  background-color: lightgray;
+  background-color: #d3d3d3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -658,7 +658,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #ffffff;
 }
 
 .main {
@@ -697,6 +697,68 @@ a {
 }
 .main .box span {
   text-decoration: underline;
+}
+
+.panel-col {
+  width: 100%;
+  height: 100%;
+}
+.panel-col .res-wrapper {
+  border: 2px solid #000000;
+  margin: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.panel-col .res-wrapper .line {
+  display: flex;
+}
+.panel-col .res-wrapper .line .button-wrapper {
+  border: 2px solid #000000;
+  border-bottom: none;
+  margin: 2rem;
+  width: 100px;
+  height: 50px;
+  background: none;
+}
+.panel-col .res-wrapper .line .button-wrapper:last-of-type {
+  margin-top: 3.5rem;
+}
+.panel-col .reservation-heading {
+  text-align: center;
+}
+.panel-col .reservation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+.panel-col .counter-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13rem;
+  height: 2rem;
+  border: 2px solid #000000;
+}
+.panel-col .cost-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 13rem;
+  height: 2rem;
+  border: 2px solid #000000;
+  margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+  .panel {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .panel-col {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
